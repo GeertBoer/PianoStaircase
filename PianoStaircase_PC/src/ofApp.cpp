@@ -2,6 +2,13 @@
 #include <bitset>
 #include "SerialCommOFW.h"
 
+/* NOTES
+	- Als je de rand van het form sleept, spelen alle pianotoetsen
+	- Soms speelt er geen geluid, terwijl er wel berichten goed binnenkomen:
+			"BIJ GEEN GELUID MAAR WEL 'OKÉ'S: HERSTART PROGRAMMA"
+*/
+
+
 //--------------------------------------------------------------
 void ofApp::setup(){
 	serialHandler = new SerialCommOFW("COM9", 9600);
@@ -33,15 +40,15 @@ void ofApp::update(){
 //--------------------------------------------------------------
 void ofApp::draw(){
 	char bitInfo;
-	bool succes = false;
+	bool succes = false; // is true als een message binnengekomen is, false als dat niet zo is
 	if (succes = serialHandler->GetAllSensorsV2(bitInfo))
 	{
 		std::bitset<8> x(bitInfo);
-		std::cout << '\n' << "oke: " << x << '\n';
+		std::cout << '\n' << "oke: " << x << '\n'; 
 	}
 
 	
-	if (succes)
+	if (succes) // Ga alleen in if als een message aangekomen is
 	{
 		if ((bitInfo >> 0) & 1)
 		{
