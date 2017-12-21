@@ -11,10 +11,10 @@
 
 //--------------------------------------------------------------
 void ofApp::setup(){
-	serialHandler = new SerialCommOFW("COM9", 9600);
+	serialHandler = new SerialCommOFW("COM9", 115200);
 
-	trede1.load("Piano1.mp3");
-	trede2.load("Piano2.mp3");
+	trede1.load("Piano1.wav");
+	trede2.load("Piano2.wav");
 	trede3.load("Piano3.mp3");
 	trede4.load("Piano4.mp3");
 	trede5.load("Piano5.mp3");

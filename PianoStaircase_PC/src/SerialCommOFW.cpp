@@ -7,6 +7,19 @@ SerialCommOFW::SerialCommOFW(char *port, int baud)
 	memset(incomingBuffer, 0, BUFFER_SIZE); //Maak buffer leeg en klaar voor gebruik
 }
 
+bool SerialCommOFW::SendSensors(char& sensors)
+{
+	memset(outgoingBuffer, 0, BUFFER_SIZE);
+	serial.flush(true, true);
+	outgoingBuffer[0] = STARTCHAR;
+	outgoingBuffer[1] = sensors;
+	outgoingBuffer[2] = ENDCHAR;
+
+	serial.writeBytes(outgoingBuffer, 3);
+	return true;
+}
+
+
 bool SerialCommOFW::GetAllSensorsV2(char& sensors)
 {
 	memset(incomingBuffer, 0, BUFFER_SIZE);

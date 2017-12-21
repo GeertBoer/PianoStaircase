@@ -1,6 +1,6 @@
 #include "Sensor.hpp"
 
-Sensor sensor(A0, A1);/*
+Sensor sensor(2,3);/*
 Sensor sensor1(A2, A3);
 Sensor sensor2(A4, A5);
 Sensor sensor3(2, 3);*/

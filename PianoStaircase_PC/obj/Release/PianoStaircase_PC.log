@@ -1,0 +1,28 @@
+﻿  SerialCommOFW.cpp
+  main.cpp
+  ofApp.cpp
+C:\Users\geert\Documents\of_v0.9.8_vs_release\libs\openFrameworks\math\ofMatrix4x4.h(320): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data (compiling source file src\ofApp.cpp)
+C:\Users\geert\Documents\of_v0.9.8_vs_release\libs\openFrameworks\math\ofMatrix4x4.h(320): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data (compiling source file src\main.cpp)
+C:\Users\geert\Documents\of_v0.9.8_vs_release\libs\openFrameworks\math\ofMatrix4x4.h(325): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data (compiling source file src\ofApp.cpp)
+C:\Users\geert\Documents\of_v0.9.8_vs_release\libs\openFrameworks\math\ofMatrix4x4.h(325): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data (compiling source file src\main.cpp)
+C:\Users\geert\Documents\of_v0.9.8_vs_release\libs\openFrameworks\math\ofMatrix4x4.h(320): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data (compiling source file src\SerialCommOFW.cpp)
+C:\Users\geert\Documents\of_v0.9.8_vs_release\libs\openFrameworks\math\ofMatrix4x4.h(325): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data (compiling source file src\SerialCommOFW.cpp)
+C:\Users\geert\Documents\of_v0.9.8_vs_release\libs\openFrameworks\math\ofMatrix4x4.h(969): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data (compiling source file src\ofApp.cpp)
+C:\Users\geert\Documents\of_v0.9.8_vs_release\libs\openFrameworks\math\ofMatrix4x4.h(970): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data (compiling source file src\ofApp.cpp)
+C:\Users\geert\Documents\of_v0.9.8_vs_release\libs\openFrameworks\math\ofMatrix4x4.h(971): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data (compiling source file src\ofApp.cpp)
+C:\Users\geert\Documents\of_v0.9.8_vs_release\libs\openFrameworks\math\ofMatrix4x4.h(972): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data (compiling source file src\ofApp.cpp)
+C:\Users\geert\Documents\of_v0.9.8_vs_release\libs\openFrameworks\math\ofMatrix4x4.h(969): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data (compiling source file src\main.cpp)
+C:\Users\geert\Documents\of_v0.9.8_vs_release\libs\openFrameworks\math\ofMatrix4x4.h(970): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data (compiling source file src\main.cpp)
+C:\Users\geert\Documents\of_v0.9.8_vs_release\libs\openFrameworks\math\ofMatrix4x4.h(971): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data (compiling source file src\main.cpp)
+C:\Users\geert\Documents\of_v0.9.8_vs_release\libs\openFrameworks\math\ofMatrix4x4.h(972): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data (compiling source file src\main.cpp)
+C:\Users\geert\Documents\of_v0.9.8_vs_release\libs\openFrameworks\math\ofMatrix4x4.h(969): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data (compiling source file src\SerialCommOFW.cpp)
+C:\Users\geert\Documents\of_v0.9.8_vs_release\libs\openFrameworks\math\ofMatrix4x4.h(970): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data (compiling source file src\SerialCommOFW.cpp)
+C:\Users\geert\Documents\of_v0.9.8_vs_release\libs\openFrameworks\math\ofMatrix4x4.h(971): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data (compiling source file src\SerialCommOFW.cpp)
+C:\Users\geert\Documents\of_v0.9.8_vs_release\libs\openFrameworks\math\ofMatrix4x4.h(972): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data (compiling source file src\SerialCommOFW.cpp)
+     Creating library bin\PianoStaircase_PC.lib and object bin\PianoStaircase_PC.exp
+  LINK : /LTCG specified but no code generation required; remove /LTCG from the link command line to improve linker performance
+  PianoStaircase_PC.vcxproj -> C:\Users\geert\Documents\GitHub\PianoStaircase\PianoStaircase_PC\bin\PianoStaircase_PC.exe
+  
+  	                   9	C:\Users\geert\Documents\of_v0.9.8_vs_release\export\vs\x64\
+  	  *EXTRA File 		 1266176	C:\Users\geert\Documents\GitHub\PianoStaircase\PianoStaircase_PC\bin\fmodex.dll
+  	  *EXTRA File 		 1312768	C:\Users\geert\Documents\GitHub\PianoStaircase\PianoStaircase_PC\bin\fmodexL.dll
